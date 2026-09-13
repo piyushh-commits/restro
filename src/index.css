@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss"; 
+
+@theme {
+    --font-sans: "Geist", sans-serif;
+    --font-urbanist: "Urbanist", sans-serif;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-black text-sm;
+    }
+}
+
+@utility px-auto {
+    @apply px-6 md:px-12 lg:px-24 xl:px-40;
+}
+
