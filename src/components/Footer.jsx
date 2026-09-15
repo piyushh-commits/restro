@@ -57,10 +57,10 @@ const Footer = () => {
                              </a>
                         </Animated>
                         <Animated delay={0.2}>
-                            <a href="tel:987-123-4662" className="flex items-center gap-1 text-zinc-600
+                            <a href="tel:962-XXX-2121" className="flex items-center gap-1 text-zinc-600
                             hover:text-zinc-500">
                                 <Phone size={16} className="shrink-0" />
-                                987-123-4662
+                                962-XXX-2121
                             </a>
 
                         </Animated>
